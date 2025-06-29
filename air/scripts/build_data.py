@@ -2,7 +2,7 @@ import csv
 import json
 import os
 
-AIRPORT_CSV = '../data/airports.csv'
+AIRPORT_CSV = 'air/data/airports.csv'
 USER_ALIST = '../data/mapcat.alist'
 OUTPUT_JSON = '../data/mapcat_airport_data.json'
 
