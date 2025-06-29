@@ -15,7 +15,7 @@
     .svg-icon { width: 24px; height: 24px; }
   </style>
 </head>
-<body>
+<body onload="populateDropdown()">
   <label for="userSelect">Choose user:</label>
   <select id="userSelect">
     <option value="mapcat_airport_data.json">mapcat</option>
@@ -117,5 +117,38 @@
 
     loadAirportData(selector.value);
   </script>
+
+  <script>
+     function populateDropdown() {
+       fetch('../data/')
+         .then(response => response.text())
+          .then(html => {
+           const parser = new DOMParser();
+           const doc = parser.parseFromString(html, 'text/html');
+           const files = Array.from(doc.querySelectorAll('a'))
+             .map(link => link.getAttribute('href'))
+             .filter(name => name.endsWith('_airport_data.json'));
+
+           const selector = document.getElementById('userSelector');
+           selector.innerHTML = ''; // Clear existing options
+
+           files.forEach(file => {
+             const user = file.replace('_airport_data.json', '');
+             const option = document.createElement('option');
+             option.value = `../data/${file}`;
+             option.textContent = user;
+             selector.appendChild(option);
+           });
+
+           // Optionally load the first user's data by default
+           if (files.length > 0) {
+             loadAirportData(`../data/${files[0]}`);
+           }
+         });
+     }
+
+  // Trigger it after everything loads
+  window.onload = populateDropdown;
+</script>
 </body>
 </html>
