@@ -65,23 +65,25 @@ def build_json(airport_data, matched_visits):
 if __name__ == '__main__':
     airport_data = load_airport_metadata(AIRPORT_CSV)
 
-    os.makedirs('data', exist_ok=True)
-    
+    os.makedirs('air/data', exist_ok=True)
+    manifest = []  # ✨ Start building the manifest
 
     for fname in os.listdir('air/data'):
         if fname.endswith('.alist'):
             user = fname.replace('.alist', '')
+            manifest.append(user)  # ✅ Add the user to the manifest
+
             filepath = os.path.join('air/data', fname)
             user_visits = load_user_visits(filepath)
             matched_visits = match_user_visits(airport_data, user_visits)
             output_data = build_json(airport_data, matched_visits)
-                     
+
             output_path = f'air/data/{user}_airport_data.json'
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2)
             print(f'✅ Data file written to {output_path}')
 
-# After generating all user JSON files
-manifest = sorted(user_to_airports.keys())
-with open('air/data/manifest.json', 'w', encoding='utf-8') as f:
-    json.dump(manifest, f)
+    # 📦 Write the manifest after processing all users
+    with open('air/data/manifest.json', 'w', encoding='utf-8') as f:
+        json.dump(sorted(manifest), f)
+    print('📄 Manifest file written to air/data/manifest.json')
