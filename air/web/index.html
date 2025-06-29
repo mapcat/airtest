@@ -119,33 +119,25 @@
   </script>
 
   <script>
-     function populateDropdown() {
-       fetch('../data/')
-         .then(response => response.text())
-          .then(html => {
-           const parser = new DOMParser();
-           const doc = parser.parseFromString(html, 'text/html');
-           const files = Array.from(doc.querySelectorAll('a'))
-             .map(link => link.getAttribute('href'))
-             .filter(name => name.endsWith('_airport_data.json'));
+function populateDropdown() {
+  fetch('../data/manifest.json')
+    .then(response => response.json())
+    .then(users => {
+      const selector = document.getElementById('userSelector');
+      selector.innerHTML = '';
 
-           const selector = document.getElementById('userSelector');
-           selector.innerHTML = ''; // Clear existing options
+      users.forEach(user => {
+        const option = document.createElement('option');
+        option.value = `../data/${user}_airport_data.json`;
+        option.textContent = user;
+        selector.appendChild(option);
+      });
 
-           files.forEach(file => {
-             const user = file.replace('_airport_data.json', '');
-             const option = document.createElement('option');
-             option.value = `../data/${file}`;
-             option.textContent = user;
-             selector.appendChild(option);
-           });
-
-           // Optionally load the first user's data by default
-           if (files.length > 0) {
-             loadAirportData(`../data/${files[0]}`);
-           }
-         });
-     }
+      if (users.length > 0) {
+        loadAirportData(`../data/${users[0]}_airport_data.json`);
+      }
+    });
+}
 
   // Trigger it after everything loads
   window.onload = populateDropdown;
