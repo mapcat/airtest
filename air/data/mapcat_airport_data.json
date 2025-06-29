@@ -707,5 +707,621 @@
       "A",
       "D"
     ]
+  },
+  {
+    "code": "ALB",
+    "name": "Albany International Airport",
+    "lat": 42.7492,
+    "lon": -73.8017,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "AMS",
+    "name": "Amsterdam Airport Schiphol",
+    "lat": 52.3081,
+    "lon": 4.7642,
+    "country": "NLD",
+    "visits": []
+  },
+  {
+    "code": "ARN",
+    "name": "Stockholm Arlanda Airport",
+    "lat": 59.6519,
+    "lon": 17.9186,
+    "country": "SWE",
+    "visits": []
+  },
+  {
+    "code": "ASP",
+    "name": "Alice Springs Airport",
+    "lat": -23.8045,
+    "lon": 133.8953,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "ATH",
+    "name": "Athens International Airport",
+    "lat": 37.9372,
+    "lon": 23.9452,
+    "country": "GRC",
+    "visits": []
+  },
+  {
+    "code": "AUA",
+    "name": "Queen Beatrix International Airport",
+    "lat": 12.5014,
+    "lon": -70.0153,
+    "country": "ABW",
+    "visits": []
+  },
+  {
+    "code": "AUK",
+    "name": "Alakanuk Airport",
+    "lat": 62.6831,
+    "lon": -164.7222,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "AYQ",
+    "name": "Ayers Rock Airport",
+    "lat": -25.1861,
+    "lon": 130.9756,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "BGR",
+    "name": "Bangor International Airport",
+    "lat": 44.8072,
+    "lon": -68.8281,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BIL",
+    "name": "Billings Logan International Airport",
+    "lat": 45.8078,
+    "lon": -108.5428,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BIS",
+    "name": "Bismarck Municipal Airport",
+    "lat": 46.7728,
+    "lon": -100.7458,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BOI",
+    "name": "Boise Airport",
+    "lat": 43.5644,
+    "lon": -116.2228,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BTV",
+    "name": "Burlington International Airport",
+    "lat": 44.4719,
+    "lon": -73.1533,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BUR",
+    "name": "Hollywood Burbank Airport",
+    "lat": 34.2006,
+    "lon": -118.3586,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BZN",
+    "name": "Bozeman Yellowstone International Airport",
+    "lat": 45.7775,
+    "lon": -111.1531,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "CAE",
+    "name": "Columbia Metropolitan Airport",
+    "lat": 33.9389,
+    "lon": -81.1194,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "CDV",
+    "name": "Merle K. (Mudhole) Smith Airport",
+    "lat": 60.4917,
+    "lon": -145.4775,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "CNS",
+    "name": "Cairns Airport",
+    "lat": -16.8747,
+    "lon": 145.7542,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "CPH",
+    "name": "Copenhagen Airport",
+    "lat": 55.6136,
+    "lon": 12.645,
+    "country": "DNK",
+    "visits": []
+  },
+  {
+    "code": "DRW",
+    "name": "Darwin International Airport",
+    "lat": -12.415,
+    "lon": 130.8753,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "DUB",
+    "name": "Dublin Airport",
+    "lat": 53.4286,
+    "lon": -6.2625,
+    "country": "IRL",
+    "visits": []
+  },
+  {
+    "code": "EDI",
+    "name": "Edinburgh Airport",
+    "lat": 55.9485,
+    "lon": -3.3634,
+    "country": "GBR",
+    "visits": []
+  },
+  {
+    "code": "ELP",
+    "name": "El Paso International Airport",
+    "lat": 31.8072,
+    "lon": -106.3775,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "EYW",
+    "name": "Key West International Airport",
+    "lat": 24.5561,
+    "lon": -81.7594,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "FRA",
+    "name": "Frankfurt Airport",
+    "lat": 50.0379,
+    "lon": 8.5622,
+    "country": "DEU",
+    "visits": []
+  },
+  {
+    "code": "FSD",
+    "name": "Sioux Falls Regional Airport",
+    "lat": 43.582,
+    "lon": -96.7419,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "GEG",
+    "name": "Spokane International Airport",
+    "lat": 47.6199,
+    "lon": -117.534,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "GLA",
+    "name": "Glasgow International Airport",
+    "lat": 55.8651,
+    "lon": -4.4332,
+    "country": "GBR",
+    "visits": []
+  },
+  {
+    "code": "HEL",
+    "name": "Helsinki-Vantaa Airport",
+    "lat": 60.3172,
+    "lon": 24.9633,
+    "country": "FIN",
+    "visits": []
+  },
+  {
+    "code": "ICT",
+    "name": "Wichita Dwight D. Eisenhower National Airport",
+    "lat": 37.6499,
+    "lon": -97.4331,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "IST",
+    "name": "Istanbul Airport",
+    "lat": 41.2753,
+    "lon": 28.7519,
+    "country": "TUR",
+    "visits": []
+  },
+  {
+    "code": "JAN",
+    "name": "Jackson\u2013Medgar Wiley Evers International Airport",
+    "lat": 32.3111,
+    "lon": -90.0758,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "JAX",
+    "name": "Jacksonville International Airport",
+    "lat": 30.4908,
+    "lon": -81.6833,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "JNU",
+    "name": "Juneau International Airport",
+    "lat": 58.355,
+    "lon": -134.5764,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "KEU",
+    "name": "Keekorok Airport",
+    "lat": -1.5864,
+    "lon": 35.2576,
+    "country": "KEN",
+    "visits": []
+  },
+  {
+    "code": "LDH",
+    "name": "Lord Howe Island Airport",
+    "lat": -31.5384,
+    "lon": 159.076,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "LED",
+    "name": "Pulkovo Airport",
+    "lat": 59.8003,
+    "lon": 30.2625,
+    "country": "RUS",
+    "visits": []
+  },
+  {
+    "code": "LFT",
+    "name": "Lafayette Regional Airport",
+    "lat": 30.2053,
+    "lon": -91.9875,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "LHR",
+    "name": "London Heathrow Airport",
+    "lat": 51.47,
+    "lon": -0.4543,
+    "country": "GBR",
+    "visits": []
+  },
+  {
+    "code": "LIT",
+    "name": "Clinton National Airport",
+    "lat": 34.7294,
+    "lon": -92.2244,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "LUP",
+    "name": "Kalaupapa Airport",
+    "lat": 21.2111,
+    "lon": -156.9736,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MAN",
+    "name": "Manchester Airport",
+    "lat": 53.3554,
+    "lon": -2.2775,
+    "country": "GBR",
+    "visits": []
+  },
+  {
+    "code": "MEM",
+    "name": "Memphis International Airport",
+    "lat": 35.04,
+    "lon": -89.9819,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MFR",
+    "name": "Rogue Valley International\u2013Medford Airport",
+    "lat": 42.3742,
+    "lon": -122.8735,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MHT",
+    "name": "Manchester\u2013Boston Regional Airport",
+    "lat": 42.9283,
+    "lon": -71.4375,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MKE",
+    "name": "General Mitchell International Airport",
+    "lat": 42.9469,
+    "lon": -87.9022,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MLI",
+    "name": "Quad City International Airport",
+    "lat": 41.4486,
+    "lon": -90.5075,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MLU",
+    "name": "Monroe Regional Airport",
+    "lat": 32.5108,
+    "lon": -92.0378,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MOT",
+    "name": "Minot International Airport",
+    "lat": 48.2594,
+    "lon": -101.2803,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MSO",
+    "name": "Missoula Montana Airport",
+    "lat": 46.9164,
+    "lon": -114.0906,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "MSY",
+    "name": "Louis Armstrong New Orleans International Airport",
+    "lat": 29.9933,
+    "lon": -90.2581,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "NBO",
+    "name": "Jomo Kenyatta International Airport",
+    "lat": -1.3192,
+    "lon": 36.9275,
+    "country": "KEN",
+    "visits": []
+  },
+  {
+    "code": "NRT",
+    "name": "Narita International Airport",
+    "lat": 35.7719,
+    "lon": 140.3875,
+    "country": "JPN",
+    "visits": []
+  },
+  {
+    "code": "OAK",
+    "name": "Oakland International Airport",
+    "lat": 37.7214,
+    "lon": -122.2208,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "OKC",
+    "name": "Will Rogers World Airport",
+    "lat": 35.3931,
+    "lon": -97.6008,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "OMA",
+    "name": "Eppley Airfield",
+    "lat": 41.3011,
+    "lon": -95.8903,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "PEK",
+    "name": "Beijing Capital International Airport",
+    "lat": 40.0778,
+    "lon": 116.5919,
+    "country": "CHN",
+    "visits": []
+  },
+  {
+    "code": "PER",
+    "name": "Perth Airport",
+    "lat": -31.9403,
+    "lon": 115.9672,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "PPT",
+    "name": "Faa'a International Airport",
+    "lat": -17.5567,
+    "lon": -149.6114,
+    "country": "PYF",
+    "visits": []
+  },
+  {
+    "code": "PVD",
+    "name": "Theodore Francis Green Memorial State Airport",
+    "lat": 41.7239,
+    "lon": -71.4283,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "RDD",
+    "name": "Redding Municipal Airport",
+    "lat": 40.5089,
+    "lon": -122.2933,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "RDM",
+    "name": "Roberts Field",
+    "lat": 44.2541,
+    "lon": -121.1499,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "RDU",
+    "name": "Raleigh\u2013Durham International Airport",
+    "lat": 35.8772,
+    "lon": -78.7889,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "RNO",
+    "name": "Reno\u2013Tahoe International Airport",
+    "lat": 39.4992,
+    "lon": -119.7681,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "ROW",
+    "name": "Roswell International Air Center",
+    "lat": 33.3017,
+    "lon": -104.5306,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "RST",
+    "name": "Rochester International Airport",
+    "lat": 43.9083,
+    "lon": -92.5,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "RSW",
+    "name": "Southwest Florida International Airport",
+    "lat": 26.5361,
+    "lon": -81.7553,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "SAT",
+    "name": "San Antonio International Airport",
+    "lat": 29.5267,
+    "lon": -98.4719,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "SHA",
+    "name": "Shanghai Hongqiao International Airport",
+    "lat": 31.1981,
+    "lon": 121.3364,
+    "country": "CHN",
+    "visits": []
+  },
+  {
+    "code": "SIA",
+    "name": "Xiguan Airport",
+    "lat": 34.3767,
+    "lon": 109.12,
+    "country": "CHN",
+    "visits": []
+  },
+  {
+    "code": "SMF",
+    "name": "Sacramento International Airport",
+    "lat": 38.6956,
+    "lon": -121.5908,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "SNA",
+    "name": "John Wayne Airport",
+    "lat": 33.6756,
+    "lon": -117.8683,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "SUX",
+    "name": "Sioux Gateway Airport",
+    "lat": 42.4025,
+    "lon": -96.3844,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "SVO",
+    "name": "Sheremetyevo International Airport",
+    "lat": 55.9728,
+    "lon": 37.4147,
+    "country": "RUS",
+    "visits": []
+  },
+  {
+    "code": "SYD",
+    "name": "Sydney Kingsford Smith Airport",
+    "lat": -33.9461,
+    "lon": 151.1772,
+    "country": "AUS",
+    "visits": []
+  },
+  {
+    "code": "TUS",
+    "name": "Tucson International Airport",
+    "lat": 32.1161,
+    "lon": -110.9411,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "YUL",
+    "name": "Montr\u00e9al\u2013Trudeau International Airport",
+    "lat": 45.4657,
+    "lon": -73.7481,
+    "country": "CAN",
+    "visits": []
   }
 ]
