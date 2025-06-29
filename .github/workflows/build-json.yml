@@ -1,0 +1,34 @@
+name: Build JSON from .alist
+
+on:
+  push:
+    paths:
+      - '**.alist'
+      - 'airports.csv'
+      - 'build_data.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt || true
+
+      - name: Run build script
+        run: python build_data.py
+
+      - name: Commit and push updated JSON
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add *_airport_data.json
+          git commit -m "Auto-update JSON from .alist"
+          git push
