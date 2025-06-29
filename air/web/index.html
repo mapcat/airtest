@@ -60,7 +60,6 @@
     }).addTo(map);
 
     function loadAirportData(jsonFile) {
-      console.clear();
       fetch(jsonFile)
         .then(response => response.json())
         .then(data => {
@@ -75,11 +74,9 @@
 
           data.forEach(airport => {
             const { lat, lon, code, name, visits } = airport;
-            console.log(`${code}: ${lat}, ${lon}, visits=${JSON.stringify(visits)}`);
             const d = visits.includes('D'), a = visits.includes('A'), l = visits.includes('L');
             if (visits.length > 0) countVisited++;
             if (visitedOnly && visits.length === 0) return;
-            if (code === "HND") console.log("✅ Rendering HND");
             
             if (a) countA++;
             if (d) countD++;
