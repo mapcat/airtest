@@ -3,7 +3,7 @@ name: Build JSON from .alist
 on:
   push:
     paths:
-      - '**.alist'
+      - 'air/data/**.alist'
       - 'airports.csv'
       - 'build_data.py'
 
