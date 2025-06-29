@@ -60,6 +60,7 @@
     }).addTo(map);
 
     function loadAirportData(jsonFile) {
+      console.clear();
       fetch(jsonFile)
         .then(response => response.json())
         .then(data => {
