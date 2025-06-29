@@ -80,3 +80,8 @@ if __name__ == '__main__':
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2)
             print(f'✅ Data file written to {output_path}')
+
+# After generating all user JSON files
+manifest = sorted(user_to_airports.keys())
+with open('air/data/manifest.json', 'w', encoding='utf-8') as f:
+    json.dump(manifest, f)
