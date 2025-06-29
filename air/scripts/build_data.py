@@ -76,7 +76,7 @@ if __name__ == '__main__':
             matched_visits = match_user_visits(airport_data, user_visits)
             output_data = build_json(airport_data, matched_visits)
                      
-            output_path = f'data/{user}_airport_data.json'
+            output_path = f'air/data/{user}_airport_data.json'
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2)
             print(f'✅ Data file written to {output_path}')
