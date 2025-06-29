@@ -77,7 +77,10 @@
     "lat": 35.5494,
     "lon": 139.7798,
     "country": "JPN",
-    "visits": []
+    "visits": [
+      "A",
+      "L"
+    ]
   },
   {
     "code": "CUN",
