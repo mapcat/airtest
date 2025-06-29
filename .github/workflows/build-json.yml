@@ -1,5 +1,8 @@
 name: Build JSON from .alist
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
