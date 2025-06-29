@@ -3,8 +3,8 @@ import json
 import os
 
 AIRPORT_CSV = 'air/data/airports.csv'
-USER_ALIST = '../data/mapcat.alist'
-OUTPUT_JSON = '../data/mapcat_airport_data.json'
+USER_ALIST = 'air/data/mapcat.alist'
+OUTPUT_JSON = 'air/data/mapcat_airport_data.json'
 
 def load_airport_metadata(filename):
     airports = {}
@@ -65,15 +65,15 @@ def build_json(airport_data, matched_visits):
 if __name__ == '__main__':
     airport_data = load_airport_metadata(AIRPORT_CSV)
 
-    for fname in os.listdir('../data'):
+    for fname in os.listdir('air/data'):
         if fname.endswith('.alist'):
             user = fname.replace('.alist', '')
-            filepath = os.path.join('../data', fname)
+            filepath = os.path.join('air/data', fname)
             user_visits = load_user_visits(filepath)
             matched_visits = match_user_visits(airport_data, user_visits)
             output_data = build_json(airport_data, matched_visits)
 
-            output_path = f'../data/{user}_airport_data.json'
+            output_path = f'data/{user}_airport_data.json'
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2)
             print(f'✅ Data file written to {output_path}')
