@@ -23,8 +23,7 @@ jobs:
         run: pip install -r requirements.txt || true
 
       - name: Run build script
-        working-directory: air/scripts
-        run: python build_data.py
+        run: python air/scripts/build_data.py
 
       - name: Commit and push updated JSON
         run: |
