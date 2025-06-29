@@ -16,11 +16,8 @@
   </style>
 </head>
 <body onload="populateDropdown()">
-  <label for="userSelect">Choose user:</label>
-  <select id="userSelect">
-    <option value="mapcat_airport_data.json">mapcat</option>
-    <option value="mollybollybee_airport_data.json">mollybollybee</option>
-  </select>
+  <label for="userSelector">Choose user:</label>
+  <select id="userSelector" onchange="loadAirportData(this.value)"></select>
 
   <label style="margin-left: 10px;">
     <input type="checkbox" id="visitedOnlyToggle">
