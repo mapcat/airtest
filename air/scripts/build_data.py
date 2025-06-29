@@ -65,6 +65,9 @@ def build_json(airport_data, matched_visits):
 if __name__ == '__main__':
     airport_data = load_airport_metadata(AIRPORT_CSV)
 
+    os.makedirs('data', exist_ok=True)
+    
+
     for fname in os.listdir('air/data'):
         if fname.endswith('.alist'):
             user = fname.replace('.alist', '')
@@ -72,7 +75,7 @@ if __name__ == '__main__':
             user_visits = load_user_visits(filepath)
             matched_visits = match_user_visits(airport_data, user_visits)
             output_data = build_json(airport_data, matched_visits)
-
+                     
             output_path = f'data/{user}_airport_data.json'
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2)
