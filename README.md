@@ -24,7 +24,7 @@ Each airport should be on a separate line. The order of the A, D, and L does not
 
 There is only one option for the map currently (show all airports, or only visited airports). More will be added.
 
-Hovering over an airport (or clicking on the icon) will identify it with the name pulled from a list stored in 'airports.csv'.
+Hovering over an airport (or clicking on the icon) will identify it with the name pulled from a list stored in airports.csv.
 
 ## Known issues:
 
