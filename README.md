@@ -14,12 +14,13 @@ Maps are generated from "alist" files submitted via GitHub. The filename should 
 
 N can be any of the following codes: A (for arrival), D (for departure), and L (for layover).
 
-**Example .alist file lines:**
+**Example file lines:**
 
-    ATL A D L   means that the traveler arrived at and departed from Hartsfield–Jackson Atlanta International Airport, and also stopped at that airport on a non-direct flight between two other airports.
-    LAX A D     means that the traveler arrived at and departed from Los Angeles International Airport.
-    ORD L       means that the traveler had a layover at Chicago O'Hare International Airport, but never began or ended travel at that airport.
-
+| Code       | Meaning                                                                 |
+|------------|-------------------------------------------------------------------------|
+| `ATL A D L`| Traveler arrived at and departed from Atlanta, and had a layover there. |
+| `LAX A D`  | Traveler arrived at and departed from Los Angeles.                      |
+| `ORD L`    | Traveler had a layover at Chicago O'Hare, but no arrival or departure.  |
 
 Each airport should be on a separate line. The order of the A, D, and L does not matter. The file should be submitted via a GitHub pull request, currently to mapcat/airtest (email submissions will be available soon but are not currently supported). Once the file is merged, their map should update automatically within a few minutes. Users can locate their maps by choosing their username from the drop-down menu.
 
