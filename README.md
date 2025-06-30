@@ -14,7 +14,7 @@ Maps are generated from "alist" files submitted via GitHub. The filename should 
 
 N can be any of the following codes: A (for arrival), D (for departure), and L (for layover).
 
-<pre>```html
+<pre>
 Example:
 
    ATL A D L means that the traveler arrived at and departed from Hartsfield–Jackson Atlanta International Airport, and also stopped at that airport on a non-direct flight between two other airports.
