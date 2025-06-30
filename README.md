@@ -16,11 +16,11 @@ N can be any of the following codes: A (for arrival), D (for departure), and L (
 
    Example:
 
-      **ATL A D L** means that the traveler arrived at and departed from Hartsfield–Jackson Atlanta International Airport, \and also stopped at that airport on a non-direct flight between two other airports.
-      **LAX A D**  means that the traveler arrived at and departed from Los Angeles International Airport.
-      **ORD L** means that the traveler had a layover at Chicago O'Hare International Airport, but never began or ended travel \at that airport.
+      ATL A D L means that the traveler arrived at and departed from Hartsfield–Jackson Atlanta International Airport, and also stopped at that airport on a non-direct flight between two other airports.
+      LAX A D  means that the traveler arrived at and departed from Los Angeles International Airport.
+      ORD L means that the traveler had a layover at Chicago O'Hare International Airport, but never began or ended travel at that airport.
 
-The filename should be '[username].alist' when the file is submitted via a GitHub pull request (email submissions will be \available soon but are not currently supported). Once the file is merged, their map should update automatically within a few minutes. \Users can locate their maps by choosing their username from the drop-down menu.
+The filename should be '[username].alist' when the file is submitted via a GitHub pull request (email submissions will be available soon but are not currently supported). Once the file is merged, their map should update automatically within a few minutes. Users can locate their maps by choosing their username from the drop-down menu.
 
 There is only one option for the map currently (show all airports, or only visited airports). More will be added.
 
