@@ -6,7 +6,7 @@ The current output is simple: symbols at airports worldwide that show a user's v
 
 ## How to create a map
 
-Maps are generated from "Alist" files submitted via GitHub, in the following format:
+Maps are generated from "Alist" files submitted via GitHub. The filename should be [username].alist. In the file, user data should use the following format:
 
 [IATA Airport Code] [N] [N]* [N]*
 
@@ -20,7 +20,7 @@ N can be any of the following codes: A (for arrival), D (for departure), and L (
       LAX A D  means that the traveler arrived at and departed from Los Angeles International Airport.
       ORD L means that the traveler had a layover at Chicago O'Hare International Airport, but never began or ended travel at that airport.
 
-The filename should be '[username].alist' when the file is submitted via a GitHub pull request (email submissions will be available soon but are not currently supported). Once the file is merged, their map should update automatically within a few minutes. Users can locate their maps by choosing their username from the drop-down menu.
+The file should be submitted via a GitHub pull request, currently to mapcat/airtest. (email submissions will be available soon but are not currently supported). Once the file is merged, their map should update automatically within a few minutes. Users can locate their maps by choosing their username from the drop-down menu.
 
 There is only one option for the map currently (show all airports, or only visited airports). More will be added.
 
@@ -36,7 +36,7 @@ Hovering over an airport (or clicking on the icon) will identify it with the nam
 
 ## Future plans:
 
-A user page with a list of airports visited will be added eventually.
-The map currently shows any airports requested by users. This may become difficult to maintain. A decision will need to be reached regarding which airports should be included. Public airports with scheduled commercial flights are the main scope for the project, but "public", "scheduled", and "commercial" may need to be clarified.
-Other information (such as city, state, and/or country) may be added to the data identifying airports.
+* A user page with a list of airports visited will be added eventually.
+* The map currently shows any airports requested by users. This may become difficult to maintain. A decision will need to be reached regarding which airports should be included. Public airports with scheduled commercial flights are the main scope for the project, but "public", "scheduled", and "commercial" may need to be clarified.
+* Other information (such as city, state, and/or country) may be added to the data identifying airports.
 
