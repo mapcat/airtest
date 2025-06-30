@@ -800,17 +800,6 @@
     ]
   },
   {
-    "code": "AUK",
-    "name": "Alakanuk Airport",
-    "lat": 62.6831,
-    "lon": -164.7222,
-    "country": "USA",
-    "visits": [
-      "D",
-      "L"
-    ]
-  },
-  {
     "code": "AYQ",
     "name": "Ayers Rock Airport",
     "lat": -25.1861,
@@ -1561,5 +1550,21 @@
     "visits": [
       "L"
     ]
+  },
+  {
+    "code": "AKL",
+    "name": "Auckland International Airport",
+    "lat": -37.0048,
+    "lon": 174.7883,
+    "country": "NZL",
+    "visits": []
+  },
+  {
+    "code": "CAI",
+    "name": "Cairo International Airport",
+    "lat": 30.1198,
+    "lon": 31.4033,
+    "country": "EGY",
+    "visits": []
   }
 ]
