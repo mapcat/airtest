@@ -37,6 +37,7 @@ Hovering over an airport (or clicking on the icon) will identify it with the nam
 ## Future plans:
 
 * A user page with a list of airports visited will be added eventually.
+* A list of users who have visited an airport may also be added.
 * The map currently shows any airports requested by users. This may become difficult to maintain. A decision will need to be reached regarding which airports should be included. Public airports with scheduled commercial flights are the main scope for the project, but "public", "scheduled", and "commercial" may need to be clarified.
 * Other information (such as city, state, and/or country) may be added to the data identifying airports.
 
