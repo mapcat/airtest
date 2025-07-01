@@ -32,7 +32,6 @@ Hovering over an airport (or clicking on the icon) will identify it with the nam
 
 * User is not persistent. When loading the map, it will default to the first username in the list.
 * After a user's .alist is updated, the browser cache must be cleared manually in order to see the updated map.
-* The map uses Leaflet with an Open Street Map basemap. Currently only one iteration of each symbol is shown on the map (i.e. they don't reappear if you pan west or east past the International Date Line).
 * Many airports are missing. So far only airports visited by at least one user have been added.
 * Airport placement is inconsistent. Some icons are centered on runways, some on terminals, and some at other positions on airport property. Many locations were automatically generated using Copilot.
 
