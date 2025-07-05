@@ -1377,7 +1377,10 @@
     "lat": 37.6213,
     "lon": -122.379,
     "country": "USA",
-    "visits": []
+    "visits": [
+      "A",
+      "D"
+    ]
   },
   {
     "code": "SLC",
@@ -1386,6 +1389,8 @@
     "lon": -111.9791,
     "country": "USA",
     "visits": [
+      "A",
+      "D",
       "L"
     ]
   },
