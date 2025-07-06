@@ -64,6 +64,14 @@
     "visits": []
   },
   {
+    "code": "BRU",
+    "name": "Brussels Airport",
+    "lat": 50.9008,
+    "lon": 4.484,
+    "country": "BEL",
+    "visits": []
+  },
+  {
     "code": "BGI",
     "name": "Grantley Adams International Airport",
     "lat": 13.0744,
@@ -226,6 +234,46 @@
     "lat": 37.9372,
     "lon": 23.9452,
     "country": "GRC",
+    "visits": []
+  },
+  {
+    "code": "BUD",
+    "name": "Budapest Ferenc Liszt International Airport",
+    "lat": 47.437,
+    "lon": 19.2572,
+    "country": "HUN",
+    "visits": []
+  },
+  {
+    "code": "BLR",
+    "name": "Kempegowda International Airport",
+    "lat": 13.19938,
+    "lon": 77.71014,
+    "country": "IND",
+    "visits": []
+  },
+  {
+    "code": "CCU",
+    "name": "Netaji Subhas Chandra Bose International Airport",
+    "lat": 22.6528,
+    "lon": 88.4413,
+    "country": "IND",
+    "visits": []
+  },
+  {
+    "code": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "lat": 28.55616,
+    "lon": 77.10028,
+    "country": "IND",
+    "visits": []
+  },
+  {
+    "code": "HYD",
+    "name": "Rajiv Gandhi International Airport",
+    "lat": 17.2373,
+    "lon": 78.4235,
+    "country": "IND",
     "visits": []
   },
   {
@@ -547,6 +595,14 @@
     "name": "Bismarck Municipal Airport",
     "lat": 46.7728,
     "lon": -100.7458,
+    "country": "USA",
+    "visits": []
+  },
+  {
+    "code": "BJI",
+    "name": "Bemidji Regional Airport",
+    "lat": 47.51083,
+    "lon": -94.93472,
     "country": "USA",
     "visits": []
   },
@@ -1381,6 +1437,14 @@
       "A",
       "D"
     ]
+  },
+  {
+    "code": "SJC",
+    "name": "San Jose International Airport",
+    "lat": 37.36395,
+    "lon": -121.92894,
+    "country": "USA",
+    "visits": []
   },
   {
     "code": "SLC",
