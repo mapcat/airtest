@@ -2,7 +2,7 @@ import csv
 
 iata_codes = set()
 
-with open('../data/airports.csv', newline='', encoding='utf-8') as infile:
+with open('air/data/airports.csv', newline='', encoding='utf-8') as infile:
     reader = csv.reader(infile, delimiter=';')
     next(reader)  # Skip header
     for row in reader:
@@ -11,7 +11,7 @@ with open('../data/airports.csv', newline='', encoding='utf-8') as infile:
 
 sorted_codes = sorted(iata_codes)
 
-with open('../data/airports-master.csv', 'w', newline='', encoding='utf-8') as outfile:
+with open('air/data/airports-master.csv', 'w', newline='', encoding='utf-8') as outfile:
     writer = csv.writer(outfile)
     for code in sorted_codes:
         writer.writerow([code])
