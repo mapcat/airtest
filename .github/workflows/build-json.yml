@@ -32,8 +32,8 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git fetch origin main
-          git rebase origin/main
           git add air/data/*.json
           git commit -m "Auto-update JSON from .alist" || echo "Nothing to commit"
+          git fetch origin main
+          git rebase origin/main
           git push
