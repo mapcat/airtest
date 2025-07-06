@@ -19,7 +19,7 @@ jobs:
 
       - name: Run script to extract IATA codes
         run: |
-          python extract_codes.py
+          python air/scripts/extract_codes.py
 
       - name: Commit generated file
         run: |
